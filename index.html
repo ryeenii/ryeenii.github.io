@@ -2,25 +2,31 @@
   <head>
     <style>
       h1 {
-        animation: gay 2s ease-in-out;
+        animation: gay 200ms ease-in-out infinite;
         font-family: "Comic Sans MS", sans-serif;
-        color: conic-gradient(from 0deg, red, yellow, lime, aqua, blue, magenta, red);
+        display: inline;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 0px rgba(0,0,0,.8);
+        margin: none;
+        padding-top: 5px;
+        box-shadow: 5px 5px 0px rgba(0,0,0,.3);
       }
       @keyframes gay {
         0% {
-          color: conic-gradient(from 0deg, red, yellow, lime, aqua, blue, magenta, red);
-        }
-        25% {
-          color: conic-gradient(from 90deg, red, yellow, lime, aqua, blue, magenta, red);
+          background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+          color: white;
+          text-shadow: 2px 2px 0px rgba(0,0,0,.8);
         }
         50% {
-          color: conic-gradient(from 180deg, red, yellow, lime, aqua, blue, magenta, red);
-        }
-        75% {
-          color: conic-gradient(from 270deg, red, yellow, lime, aqua, blue, magenta, red);
+          background: conic-gradient(yellow, lime, aqua, blue, magenta, red, yellow);
+          color: black;
+          text-shadow: 2px 2px 0px rgba(255,255,255,.8);
         }
         100% {
-          color: conic-gradient(from 360deg, red, yellow, lime, aqua, blue, magenta, red);
+          background: conic-gradient(lime, aqua, blue, magenta, red, yellow, lime);
+          color: white;
+          text-shadow: 2px 2px 0px rgba(0,0,0,.8);
         }
       }
     </style>
